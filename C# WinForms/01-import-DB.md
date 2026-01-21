@@ -4,8 +4,6 @@
 
 On-Premise and Off-Premise Relational Database Management
 
-
-
 ---
 
 ## ขั้นตอนที่ 1: ติดตั้งและเริ่มต้น XAMPP

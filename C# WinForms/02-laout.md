@@ -63,6 +63,7 @@ On-Premise and Off-Premise Relational Database Management
 * Button: `btnMeuEmp` → Text: Employees
 * Button: `btnMeuDep` → Text: Departments
 * Button: `btnMeuJob` → Text: Jobs
+
 <img src="images/btmen.png" width="600">
 ---
 
@@ -71,6 +72,7 @@ On-Premise and Off-Premise Relational Database Management
 
 * Name: `panContent`
 * จัดตำแหน่งตามรูป
+
 <img src="images/pancon.png" width="600">
 ---
 
@@ -81,22 +83,70 @@ On-Premise and Off-Premise Relational Database Management
     - Name: `panEmp`
     - Name: `panDep`
     - Name: `panJob`
+
     <img src="images/subpan.png" width="600">
     
-* ใส่ label ให้ทุก Panel โดยต้อง เลือก Panal ขึ้นมาก่อน
+* ใส่ label ให้ Panel panEmp โดยต้อง เลือก Panal ขึ้นมาก่อน
 
     <img src="images/panemp1.png" width="600">
+
     <img src="images/lblems.png" width="600">
 
+
 * ถ้าต้องการจะย่อให้เล็กลง ให้ทำตามภาพ
+
     <img src="images/undock.png" width="600">
 
-* ทำให้ครบทุก Panel
+ทำต่อให้ครบทุก panel
 ---
 
 ## ขั้นตอนที่ 4: เขียนโปรแกรมจัดการ Panel
 * ปิดการแสดงผลเมื่อเริ่มโปรแกรม
+
     <img src="images/01.png" width="600">
+
 * เมื่อกดปุ่มให้แสดงผล เมนู ตามที่กด
+
     <img src="images/02.png" width="600">
 ---
+
+## ขั้นตอนที่ 5 การเรีบก Form มาแสดง ใน panel
+
+สร้าง Form ใหม่ 
+* Form: `FRMJOB` 
+
+<img src="images/nf.png" width="600">
+
+* เลือก Form(windowsform)
+
+<img src="images/FRMJOB.png" width="600">
+
+* เช็คขนาดของ panel panContent
+
+<img src="images/pans.png" width="600">
+
+* ปรับขนาดของ Form FRMJOB ให้เท่ากับ panContent
+* เพิ่ม label ใน Form FRMJOB
+
+<img src="images/ex1.png" width="600">
+
+เพิ่มปุ่มใน form1 ชื่อ `btnjobfrm`
+
+<img src="images/btj.png" width="600">
+
+
+## ขั้นตอนที่ 6: เขียนโปรแกรมจัดการ Form
+
+* เขียนโปรแกรมจัดการปุ่ม ให้เปิด form
+
+<img src="images/opcf.png" width="600">
+<img src="images/btjop.png" width="600">
+
+* ปรับ code เพิ่ม เพื่อให้ การจัดการ panel ยังใช้งานได้
+
+<img src="images/edtsp.png" width="600">
+
+## ขั้นตอนที่ 7: Clean Code ให้อ่านง่าย
+
+<img src="images/cc1.png" width="600">
+<img src="images/cc02.png" width="600">
