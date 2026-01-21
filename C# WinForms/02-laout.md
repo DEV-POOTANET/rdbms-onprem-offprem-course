@@ -12,13 +12,15 @@ On-Premise and Off-Premise Relational Database Management
 1. เปิด Visual Studio
 2. เลือก **Create a new project**
 3. เลือก **Windows Forms App (.NET Framework)**
+   
     <img src="images/createPJ.png" width="600">
-4. ตั้งชื่อโปรเจกต์
+    
+5. ตั้งชื่อโปรเจกต์
 
    ```text
    HRWinFormApp
    ```
-5. กด Create
+6. กด Create
 
 ---
 
