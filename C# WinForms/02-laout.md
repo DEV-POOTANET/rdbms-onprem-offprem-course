@@ -12,7 +12,9 @@ On-Premise and Off-Premise Relational Database Management
 1. เปิด Visual Studio
 2. เลือก **Create a new project**
 3. เลือก **Windows Forms App (.NET Framework)**
-    <img src="images/createPJ.png" width="600">
+
+<img src="images/createPJ.png" width="600">
+    
 4. ตั้งชื่อโปรเจกต์
 
    ```text
@@ -147,6 +149,6 @@ On-Premise and Off-Premise Relational Database Management
 <img src="images/edtsp.png" width="600">
 
 ## ขั้นตอนที่ 7: Clean Code ให้อ่านง่าย
-
+แก้ไขตามภาพ
 <img src="images/cc1.png" width="600">
 <img src="images/cc02.png" width="600">
