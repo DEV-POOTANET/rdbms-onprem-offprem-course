@@ -1,4 +1,4 @@
-# Lab 02: C# Windows Forms Loda data from DB
+# Lab 04: C# Windows Forms Loda data from DB
 
 ## รายวิชา
 
