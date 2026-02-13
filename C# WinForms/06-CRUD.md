@@ -1,4 +1,4 @@
-# Lab 05: C# CRUD
+# Lab 06: C# CRUD
 
 ## รายวิชา
 
